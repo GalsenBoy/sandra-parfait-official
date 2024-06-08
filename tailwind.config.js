@@ -19,7 +19,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        header: "url('./assets/photos/image00009.jpeg')",
+        header: "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('./assets/photos/image00009.jpeg')",
       },
       colors: {
         border: "hsl(var(--border))",
@@ -70,6 +70,9 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+      },
+      fontFamily: {
+        body: ['"Inter", sans-serif'],
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
