@@ -18,6 +18,9 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage: {
+        header: "url('./assets/photos/image00009.jpeg')",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
