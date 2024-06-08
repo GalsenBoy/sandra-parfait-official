@@ -22,6 +22,7 @@ function News() {
           <CardContent className="pt-6">
           <p>Sous la Seine <span className="text-sm text-muted-foreground">de Xavier Gens</span></p>
           <p>Role: name of the character</p>
+          <p>Release: date of release</p>
           </CardContent>
         </Card>
       </article>
