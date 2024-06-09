@@ -1,4 +1,4 @@
-import { Card, CardContent } from "./ui/card"
+import { Card, CardContent } from "../ui/card"
 
 function News() {
   return (
@@ -20,9 +20,9 @@ function News() {
         <h3 className='sr-only'>Latest Appearance</h3>
         <Card>
           <CardContent className="pt-6">
-          <p>Sous la Seine <span className="text-sm text-muted-foreground">de Xavier Gens</span></p>
-          <p>Role: name of the character</p>
-          <p>Release: date of release</p>
+            <p>Sous la Seine <span className="text-sm text-muted-foreground">de Xavier Gens</span></p>
+            <p>Role: name of the character</p>
+            <p>Release: date of release</p>
           </CardContent>
         </Card>
       </article>

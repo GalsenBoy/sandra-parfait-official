@@ -1,9 +1,9 @@
 import './App.css'
-import Footer from './components/footer'
-import Galleries from './components/galleries'
-import Header from './components/header'
-import News from './components/news'
-import Profile from './components/profile'
+import Footer from './components/footer/footer'
+import Galleries from './components/galleries/galleries'
+import Header from './components/header/header'
+import News from './components/news/news'
+import Profile from './components/profile/profile'
 import { ThemeProvider } from './components/theme-provider'
 
 function App() {
