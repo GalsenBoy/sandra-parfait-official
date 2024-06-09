@@ -18,7 +18,7 @@ function WorksTabs() {
       <TabsList className="grid w-full grid-cols-3">
         <TabsTrigger value="cinema">Cinema</TabsTrigger>
         <TabsTrigger value="television">Television</TabsTrigger>
-        <TabsTrigger value="theater">Theater</TabsTrigger>
+        <TabsTrigger value="stage">Stage</TabsTrigger>
       </TabsList>
       <TabsContent value="cinema">
         <Card>
@@ -44,10 +44,10 @@ function WorksTabs() {
           </CardContent>
         </Card>
       </TabsContent>
-      <TabsContent value="theater">
+      <TabsContent value="stage">
         <Card>
           <CardHeader>
-            <CardTitle>Theater</CardTitle>
+            <CardTitle>Stage</CardTitle>
             <CardDescription>
               Stage performances list here.
             </CardDescription>
