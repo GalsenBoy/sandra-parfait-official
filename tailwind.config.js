@@ -19,7 +19,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        header: "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('./assets/photos/image00009.jpeg')",
+        header: "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('assets/photos/image00009.jpeg')",
       },
       colors: {
         border: "hsl(var(--border))",
