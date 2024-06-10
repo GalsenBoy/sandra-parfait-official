@@ -5,10 +5,10 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
-import Autoplay from "embla-carousel-autoplay"
+
 function VideosCarousel() {
   return (
-    <Carousel opts={{ loop: true }} plugins={[Autoplay({ delay: 5000 })]}>
+    <Carousel opts={{ loop: true }} >
       <CarouselContent>
         <CarouselItem>
           <iframe className='w-full aspect-video'
