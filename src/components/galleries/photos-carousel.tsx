@@ -4,9 +4,8 @@ import photos from "@/data/medias"
 import { IPhoto } from "@/data/medias.type"
 
 function PhotosCarousel() {
-
   return (
-    <Carousel opts={{ align: "start", loop: true }} plugins={[Autoplay({ delay: 3500 })]}>
+    <Carousel opts={{ orientatioalign: "start", loop: true }} plugins={[Autoplay({ delay: 3500 })]}>
       <CarouselContent>
         {photos.map((photo: IPhoto) => (
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
