@@ -14,7 +14,7 @@ import {
 
 function WorksTabs() {
   return (
-    <Tabs defaultValue="cinema" className="w-full">
+    <Tabs defaultValue="cinema" className="w-full lg:px-60">
       <TabsList className="grid w-full grid-cols-3">
         <TabsTrigger value="cinema">Cinema</TabsTrigger>
         <TabsTrigger value="television">Television</TabsTrigger>
