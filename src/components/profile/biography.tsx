@@ -2,16 +2,16 @@ function Biography() {
   return (
     <>
       <p>
-        Née en avril 1989 à Lyon d’une mère martiniquaise et d’un père congolais,
-        Sandra Parfait entreprend des études d’interprétariat tout en suivant en parallèle des cours d’art dramatique.
+        Born in April 1989 in Lyon to a Martiniquais mother and a Congolese father, Sandra Parfait pursued studies in interpretation while simultaneously taking drama classes.
       </p>
-      <p>Elle devient comédienne en 2013 après avoir validé une licence LEA (anglais espagnol japonais) et commence à travailler au théâtre dans les pièces «Une Saison au Congo» d’Aimé Césaire puis
-      «Les Monologues du Vagin» d’Eve Ensler, et «Du Piment dans Les Yeux» de Simon Grangeat.</p>
-      <p>Elle obtient ses premiers rôles à la télévision notamment dans des réalisations de
-        Didier Le Pêcheur, Jérôme Cornuau, puis Slimane-Baptiste Berhoun, Andrew Fleming ou encore Simon Astier entre autres,
-        et au cinéma avec Nicolas Pariser et Antonin Peretjatko.</p>
-      <p>En 2021, elle est choisie par le réalisateur Bertrand Mandico pour jouer l'une des incarnations du rôle-tire de son troisième long-métrage,
-        Conann, sélectionné à la Quinzaine des Cinéastes à Cannes en 2023.
+      <p>
+        She became an actress in 2013 after earning a bachelor's degree in LEA (English, Spanish, Japanese) and began working in theater in plays such as "A Season in the Congo" by Aimé Césaire, "The Vagina Monologues" by Eve Ensler, and "Some Spice in the Eyes" by Simon Grangeat.
+      </p>
+      <p>
+        She obtained her first television roles in productions by Didier Le Pêcheur, Jérôme Cornuau, Slimane-Baptiste Berhoun, Andrew Fleming, and Simon Astier, among others, and in cinema with Nicolas Pariser and Antonin Peretjatko.
+      </p>
+      <p>
+        In 2021, she was chosen by director Bertrand Mandico to play one of the incarnations of the titular role in his third feature film, Conann, which was selected for the Directors' Fortnight at Cannes in 2023.
       </p>
     </>
   )
