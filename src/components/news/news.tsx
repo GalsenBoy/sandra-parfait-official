@@ -21,8 +21,8 @@ function News() {
         <Card>
           <CardContent className="w-full md:w-[640px] pt-6 pb-2">
             <p>Sous la Seine <span className="text-sm text-muted-foreground">de Xavier Gens</span></p>
-            <p>Role: name of the character</p>
-            <p>Release: date of release</p>
+            <p>Role: Caro</p>
+            <p>Release: 5 juin 2024</p>
           </CardContent>
         </Card>
       </article>
