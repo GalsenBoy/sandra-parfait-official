@@ -1,60 +1,29 @@
 import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
-import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
 } from "@/components/ui/tabs"
+import FilmsTab from "@/components/profile/tabs/films-tab"
+import SeriesTab from "@/components/profile/tabs/series-tab"
+import PlaysTab from "@/components/profile/tabs/plays-tab"
 
 function WorksTabs() {
   return (
-    <Tabs defaultValue="cinema" className="w-full lg:px-60">
+    <Tabs defaultValue="films" className="w-full lg:px-60">
       <TabsList className="grid w-full grid-cols-3">
-        <TabsTrigger value="cinema">Cinema</TabsTrigger>
-        <TabsTrigger value="television">Television</TabsTrigger>
-        <TabsTrigger value="stage">Stage</TabsTrigger>
+        <TabsTrigger value="films">Films</TabsTrigger>
+        <TabsTrigger value="series">Series</TabsTrigger>
+        <TabsTrigger value="plays">Plays</TabsTrigger>
       </TabsList>
-      <TabsContent value="cinema">
-        <Card>
-          <CardHeader>
-            <CardTitle>Cinema</CardTitle>
-            <CardDescription>
-              Filmography list here.
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-2">
-          </CardContent>
-        </Card>
+      <TabsContent value="films">
+        <FilmsTab />
       </TabsContent>
-      <TabsContent value="television">
-        <Card>
-          <CardHeader>
-            <CardTitle>Television</CardTitle>
-            <CardDescription>
-              Television performances list here.
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-2">
-          </CardContent>
-        </Card>
+      <TabsContent value="series">
+        <SeriesTab />
       </TabsContent>
-      <TabsContent value="stage">
-        <Card>
-          <CardHeader>
-            <CardTitle>Stage</CardTitle>
-            <CardDescription>
-              Stage performances list here.
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-2">
-          </CardContent>
-        </Card>
+      <TabsContent value="plays">
+        <PlaysTab />
       </TabsContent>
     </Tabs>
   )
