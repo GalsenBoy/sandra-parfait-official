@@ -1,12 +1,16 @@
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
+import { DataTable } from "@/components/ui/data-table"
+import { columns } from "./series-columns"
+import series from "@/data/series"
 
-function FilmsTabs() {
+
+function SeriesTab() {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Films</CardTitle>
+        <CardTitle className="sr-only">Series</CardTitle>
         <CardDescription>
-          Filmography list here.
+        <DataTable columns={columns} data={series} />
         </CardDescription>
       </CardHeader>
       <CardContent className="space-y-2">
@@ -15,4 +19,4 @@ function FilmsTabs() {
   )
 }
 
-export default FilmsTabs
+export default SeriesTab

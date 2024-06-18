@@ -1,5 +1,5 @@
 import Biography from "./biography"
-import WorksTabs from "./works-tabs"
+import FilmographyTabs from "./filmography/filmography-tabs"
 
 function Profile() {
   return (
@@ -12,7 +12,7 @@ function Profile() {
 
       <article id='cinematography' className="flex flex-col items-center">
         <h3 className='sr-only'>Works</h3>
-        <WorksTabs />
+        <FilmographyTabs />
       </article>
     </section>
   )

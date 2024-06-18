@@ -4,11 +4,11 @@ import {
   TabsList,
   TabsTrigger,
 } from "@/components/ui/tabs"
-import FilmsTab from "@/components/profile/tabs/films-tab"
-import SeriesTab from "@/components/profile/tabs/series-tab"
-import PlaysTab from "@/components/profile/tabs/plays-tab"
+import FilmsTab from "@/components/profile/filmography/films/films-tab"
+import SeriesTab from "@/components/profile/filmography/series/series-tab"
+import PlaysTab from "@/components/profile/filmography/plays/plays-tab"
 
-function WorksTabs() {
+function FilmographyTabs() {
   return (
     <Tabs defaultValue="films" className="w-full lg:px-60">
       <TabsList className="grid w-full grid-cols-3">
@@ -29,4 +29,4 @@ function WorksTabs() {
   )
 }
 
-export default WorksTabs
+export default FilmographyTabs
