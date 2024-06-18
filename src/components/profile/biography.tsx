@@ -2,17 +2,13 @@ function Biography() {
   return (
     <>
       <p>
-        Born in April 1989 in Lyon to a Martiniquais mother and a Congolese father, Sandra Parfait pursued studies in interpretation while simultaneously taking drama classes.
-      </p>
+        Born in April 1989 in Lyon to a Martinican mother and Congolese father, Sandra Parfait pursued studies in interpreting, earning a degree in LEA (English, Spanish, Japanese). Concurrently, she took acting classes and later trained as a stunt performer.      </p>
       <p>
-        She became an actress in 2013 after earning a bachelor's degree in LEA (English, Spanish, Japanese) and began working in theater in plays such as "Une Saison au Congo" by Aimé Césaire, "The Vagina Monologues" by Eve Ensler, and "Du Piment dans Les Yeux" by Simon Grangeat.
-      </p>
+        Her theatre career began in 2013 with roles in productions such as "Une saison au Congo," directed by Christian Schiaretti, "The Vagina Monologues" directed by Dominique Deschamps, and "Du Piment dans Les Yeux" by Antonella Amirante.      </p>
       <p>
-        She obtained her first television roles in productions by Didier Le Pêcheur, Jérôme Cornuau, Slimane-Baptiste Berhoun, Andrew Fleming, and Simon Astier, among others, and in cinema with Nicolas Pariser and Antonin Peretjatko.
-      </p>
+        She made her television debut in works by Didier Le Pêcheur, Jérôme Cornuau, Slimane-Baptiste Berhoun, Andrew Fleming, and Simon Astier, among others. In cinema, she appeared in films by Nicolas Pariser and Antonin Peretjatko.      </p>
       <p>
-        In 2021, she was chosen by director Bertrand Mandico to play one of the incarnations of the titular role in his third feature film, Conann, which was selected for the Directors' Fortnight at Cannes in 2023.
-      </p>
+        In 2021, she was cast by director Bertrand Mandico for a leading role in his third feature film, "Conann," selected for the Directors' Fortnight at Cannes in 2023. In 2023, she joined the successful Netflix series "Lupin" for its third season, starring alongside Omar Sy.      </p>
     </>
   )
 }
