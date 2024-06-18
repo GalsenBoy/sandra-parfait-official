@@ -1,4 +1,4 @@
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 import { DataTable } from "@/components/ui/data-table"
 import { columns } from "./series-columns"
 import series from "@/data/series"
@@ -9,11 +9,9 @@ function SeriesTab() {
     <Card>
       <CardHeader>
         <CardTitle className="sr-only">Series</CardTitle>
-        <CardDescription className="md:mx-auto">
-        <DataTable columns={columns} data={series} />
-        </CardDescription>
       </CardHeader>
-      <CardContent className="space-y-2">
+      <CardContent className="space-y-2 2xl:px-52">
+        <DataTable columns={columns} data={series} />
       </CardContent>
     </Card>
   )

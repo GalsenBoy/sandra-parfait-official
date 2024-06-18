@@ -1,4 +1,4 @@
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 import { DataTable } from "@/components/ui/data-table"
 import { columns } from "./films-columns"
 import films from "@/data/films"
@@ -8,11 +8,9 @@ function FilmsTabs() {
     <Card>
       <CardHeader>
         <CardTitle className="sr-only">Films</CardTitle>
-        <CardDescription className="md:mx-auto">
-          <DataTable columns={columns} data={films} />
-        </CardDescription>
       </CardHeader>
-      <CardContent className="space-y-2">
+      <CardContent className="space-y-2 2xl:px-52">
+        <DataTable columns={columns} data={films} />
       </CardContent>
     </Card>
   )
