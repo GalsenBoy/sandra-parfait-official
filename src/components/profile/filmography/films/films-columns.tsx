@@ -7,6 +7,10 @@ export const columns: ColumnDef<IFilmography>[] = [
     header: "Name",
   },
   {
+    accessorKey: "director",
+    header: "Director",
+  },
+  {
     accessorKey: "year",
     header: "Year",
   },

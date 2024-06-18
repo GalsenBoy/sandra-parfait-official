@@ -36,7 +36,7 @@ const series = [
     type: "serie",
   },
   {
-    name: "L'homme que j'ai condamné'",
+    name: "L'homme que j'ai condamné",
     year: 2019,
     role: "",
     type: "serie",
