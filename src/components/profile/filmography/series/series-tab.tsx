@@ -9,7 +9,7 @@ function SeriesTab() {
     <Card>
       <CardHeader>
         <CardTitle className="sr-only">Series</CardTitle>
-        <CardDescription>
+        <CardDescription className="md:mx-auto">
         <DataTable columns={columns} data={series} />
         </CardDescription>
       </CardHeader>

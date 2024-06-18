@@ -8,7 +8,7 @@ function FilmsTabs() {
     <Card>
       <CardHeader>
         <CardTitle className="sr-only">Films</CardTitle>
-        <CardDescription>
+        <CardDescription className="md:mx-auto">
           <DataTable columns={columns} data={films} />
         </CardDescription>
       </CardHeader>

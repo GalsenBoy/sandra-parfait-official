@@ -9,7 +9,7 @@ function PlaysTab() {
     <Card>
       <CardHeader>
         <CardTitle className="sr-only">Plays</CardTitle>
-        <CardDescription>
+        <CardDescription className="md:mx-auto">
         <DataTable columns={columns} data={plays} />
         </CardDescription>
       </CardHeader>
