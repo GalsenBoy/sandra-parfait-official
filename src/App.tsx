@@ -1,5 +1,6 @@
 import './App.css'
 import Footer from './components/footer/footer'
+import GoToUp from './components/footer/go-to-top-button'
 import Galleries from './components/galleries/galleries'
 import Header from './components/header/header'
 import News from './components/news/news'
@@ -14,6 +15,7 @@ function App() {
       <Profile />
       <Galleries />
       <Footer />
+      <GoToUp />
     </ThemeProvider>
   )
 }
