@@ -8,8 +8,8 @@ function PhotosCarousel() {
     <Carousel opts={{ align: "start", loop: true }} plugins={[Autoplay({ delay: 3500 })]}>
       <CarouselContent>
         {photos.map((photo: IPhoto) => (
-          <CarouselItem className="basis-1/2 lg:basis-1/3">
-            <img src={photo.url} alt={photo.name} className="object-cover min-h-full h-full" />
+          <CarouselItem className="basis-full md:basis-1/2 lg:basis-1/3">
+            <img src={photo.url} alt={photo.name} className="object-cover w-full min-h-full h-full" />
           </CarouselItem>
         ))}
       </CarouselContent>
