@@ -9,7 +9,7 @@ function PhotosCarousel() {
       <CarouselContent>
         {photos.map((photo: IPhoto) => (
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-            <img src={photo.url} alt={photo.name} className="object-cover h-full" />
+            <img src={photo.url} alt={photo.name} className="object-cover min-h-full h-full" />
           </CarouselItem>
         ))}
       </CarouselContent>
