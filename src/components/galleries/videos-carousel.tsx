@@ -12,6 +12,20 @@ function VideosCarousel() {
       <CarouselContent>
         <CarouselItem>
           <iframe className='w-full aspect-video'
+            src="https://www.youtube.com/embed/_LxGIBtXuUI?si=ULb9dSI67W03YU8v"
+            title="YouTube video player" frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        </CarouselItem>
+        <CarouselItem>
+          <iframe className='w-full aspect-video'
+            src="https://www.youtube.com/embed/AeB3b_PAkOA?si=Q7h-STGcnJWYCg6B"
+            title="YouTube video player" frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        </CarouselItem>
+        <CarouselItem>
+          <iframe className='w-full aspect-video'
             src="https://www.youtube.com/embed/6vZWMlQr6QA?si=Po0j0ODfxK3Mjgth"
             title="YouTube video player" frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
