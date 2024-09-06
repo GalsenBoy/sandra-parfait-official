@@ -8,6 +8,7 @@ function News() {
       <article id='latest-video' className="flex flex-col items-center">
         <h3 className='sr-only'>Latest Video</h3>
         <iframe
+          loading="lazy"
           className='w-full aspect-video max-w-[840px] rounded-lg'
           src="https://www.youtube.com/embed/HPfkQ9gMLMY?si=QFOrLU9UvqfR_I4_"
           title="YouTube video player" frameBorder="0"
