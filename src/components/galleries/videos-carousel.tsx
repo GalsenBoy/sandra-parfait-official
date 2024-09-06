@@ -5,14 +5,12 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
-import { Suspense } from "react"
 
 function VideosCarousel() {
   return (
     <Carousel opts={{ align: "start", loop: true }} >
       <CarouselContent>
         <CarouselItem className="basis-full md:basis-1/2 lg:basis-1/3">
-          <Suspense>
             <iframe 
               loading="lazy"
               className='w-full aspect-video'
@@ -20,10 +18,8 @@ function VideosCarousel() {
               title="YouTube video player" frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-          </Suspense>
         </CarouselItem>
         <CarouselItem className="basis-full md:basis-1/2 lg:basis-1/3">
-          <Suspense>
             <iframe 
               loading="lazy"
               className='w-full aspect-video'
@@ -31,10 +27,8 @@ function VideosCarousel() {
               title="YouTube video player" frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-          </Suspense>
         </CarouselItem>
         <CarouselItem className="basis-full md:basis-1/2 lg:basis-1/3">
-          <Suspense>
             <iframe 
               loading="lazy"
               className='w-full aspect-video'
@@ -42,10 +36,8 @@ function VideosCarousel() {
               title="YouTube video player" frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-          </Suspense>
         </CarouselItem>
         <CarouselItem className="basis-full md:basis-1/2 lg:basis-1/3">
-          <Suspense>
             <iframe 
               loading="lazy"
               className='w-full aspect-video'
@@ -53,10 +45,8 @@ function VideosCarousel() {
               title="YouTube video player" frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-          </Suspense>
         </CarouselItem>
         <CarouselItem className="basis-full md:basis-1/2 lg:basis-1/3">
-          <Suspense>
             <iframe 
               loading="lazy"
               className='w-full aspect-video'
@@ -64,19 +54,15 @@ function VideosCarousel() {
               title="YouTube video player" frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-          </Suspense>
         </CarouselItem>
         <CarouselItem className="basis-full md:basis-1/2 lg:basis-1/3">
-          <Suspense>
             <iframe
-              
               loading="lazy"  
               className='w-full aspect-video'
               src="https://www.youtube.com/embed/gFCX5iScflw?si=T7w8Cl91NOw8DQA0"
               title="YouTube video player" frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-          </Suspense>
         </CarouselItem>
       </CarouselContent>
       <CarouselPrevious />

@@ -1,5 +1,4 @@
 import { Card, CardContent } from "../ui/card"
-import { Suspense } from "react"
 
 function News() {
   return (
@@ -8,7 +7,6 @@ function News() {
 
       <article id='latest-video' className="flex flex-col items-center">
         <h3 className='sr-only'>Latest Video</h3>
-        <Suspense>
           <iframe
             loading="lazy"
             className='w-full aspect-video max-w-[840px] rounded-lg'
@@ -17,7 +15,6 @@ function News() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen></iframe>
-        </Suspense>
       </article>
 
       <article id='latest-appearance' className="flex flex-col items-center">
