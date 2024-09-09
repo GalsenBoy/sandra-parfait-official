@@ -5,59 +5,53 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
+import LiteYTEmbed from "@/lib/lite-yt-embed/lite-yt-embed"
 
 function VideosCarousel() {
   return (
     <Carousel opts={{ align: "start", loop: true }} >
       <CarouselContent>
         <CarouselItem className="basis-full md:basis-1/2 lg:basis-1/3">
-          <iframe className='w-full aspect-video'
-            loading="lazy"
-            src="https://www.youtube.com/embed/_LxGIBtXuUI?si=ULb9dSI67W03YU8v"
-            title="YouTube video player" frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          <LiteYTEmbed
+            videoId="_LxGIBtXuUI"
+            playLabel="Play Video"
+            title="Interview Sandra Parfait Guadeloupe la 1ère (2023)"
+          />
         </CarouselItem>
         <CarouselItem className="basis-full md:basis-1/2 lg:basis-1/3">
-          <iframe className='w-full aspect-video'
-            loading="lazy"
-            src="https://www.youtube.com/embed/AeB3b_PAkOA?si=Q7h-STGcnJWYCg6B"
-            title="YouTube video player" frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          <LiteYTEmbed
+            videoId="AeB3b_PAkOA"
+            playLabel="Play Video"
+            title="Interview Sandra Parfait France 3 Outremer Cannes 2023"
+          />
         </CarouselItem>
         <CarouselItem className="basis-full md:basis-1/2 lg:basis-1/3">
-          <iframe className='w-full aspect-video'
-            loading="lazy"
-            src="https://www.youtube.com/embed/6vZWMlQr6QA?si=Po0j0ODfxK3Mjgth"
-            title="YouTube video player" frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          <LiteYTEmbed
+            videoId="6vZWMlQr6QA"
+            playLabel="Play Video"
+            title="Conann - Sandra Parfait nous parle de son rôle de barbare !"
+          />
         </CarouselItem>
         <CarouselItem className="basis-full md:basis-1/2 lg:basis-1/3">
-          <iframe className='w-full aspect-video'
-            loading="lazy"
-            src="https://www.youtube.com/embed/qQd080up3o4?si=882fnGA570KvN1F1"
-            title="YouTube video player" frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        <LiteYTEmbed
+            videoId="qQd080up3o4"
+            playLabel="Play Video"
+            title="Conann new clip official from Cannes Film Festival 2023 - 2/2"
+          />
         </CarouselItem>
         <CarouselItem className="basis-full md:basis-1/2 lg:basis-1/3">
-          <iframe className='w-full aspect-video'
-            loading="lazy"
-            src="https://www.youtube.com/embed/beysI2CopYM?si=s7I5tzFDuhnKlkBM&amp;start=38"
-            title="YouTube video player" frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        <LiteYTEmbed
+            videoId="qQd080up3o4"
+            playLabel="Play Video"
+            title="She Is Conann - U.S. Trailer"
+          />
         </CarouselItem>
         <CarouselItem className="basis-full md:basis-1/2 lg:basis-1/3">
-          <iframe
-            className='w-full aspect-video'
-              loading="lazy"
-            src="https://www.youtube.com/embed/gFCX5iScflw?si=T7w8Cl91NOw8DQA0"
-            title="YouTube video player" frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        <LiteYTEmbed
+            videoId="gFCX5iScflw"
+            playLabel="Play Video"
+            title="Sandra Parfait - Démo 2019"
+          />
         </CarouselItem>
       </CarouselContent>
       <CarouselPrevious />

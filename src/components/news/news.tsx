@@ -1,3 +1,4 @@
+import LiteYTEmbed from "@/lib/lite-yt-embed/lite-yt-embed"
 import { Card, CardContent } from "../ui/card"
 
 function News() {
@@ -7,14 +8,11 @@ function News() {
 
       <article id='latest-video' className="flex flex-col items-center">
         <h3 className='sr-only'>Latest Video</h3>
-        <iframe
-          loading="lazy"
-          className='w-full aspect-video max-w-[840px] rounded-lg'
-          src="https://www.youtube.com/embed/HPfkQ9gMLMY?si=QFOrLU9UvqfR_I4_"
-          title="YouTube video player" frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen></iframe>
+        <LiteYTEmbed
+          videoId="HPfkQ9gMLMY"
+          playLabel="Play Video"
+          title="Sous la Seine | Bande-Annonce officielle VF | Netflix France"
+        />
       </article>
 
       <article id='latest-appearance' className="flex flex-col items-center">
