@@ -1,3 +1,4 @@
+import { goToUpPage } from "@/lib/utils"
 import { CircleArrowUp } from "lucide-react"
 
 function GoToUp() {
@@ -5,7 +6,7 @@ function GoToUp() {
     <button 
     aria-label="Go to top"
     className="sticky bottom-4 float-right right-4" 
-    onClick={() => window.scroll({ top: 0 })}
+    onClick={goToUpPage}
     >
       <CircleArrowUp size={54} />
     </button>

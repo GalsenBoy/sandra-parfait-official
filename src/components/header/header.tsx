@@ -1,3 +1,5 @@
+import { goToUpPage } from "@/lib/utils"
+
 function Header() {
   return (
     <>
@@ -10,7 +12,7 @@ function Header() {
         <nav className="row-start-3 self-end">
           <menu className="flex justify-center gap-4">
             <li>
-              <a href="#">Home</a>
+              <a href="" onClick={goToUpPage}>Home</a>
             </li>
             <li>
               <a href="#news">News</a>
