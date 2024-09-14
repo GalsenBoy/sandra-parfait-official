@@ -10,7 +10,7 @@ function Header() {
         <nav className="row-start-3 self-end">
           <menu className="flex justify-center gap-4">
             <li>
-              <a href="#">Homepage</a>
+              <a href="#">Home</a>
             </li>
             <li>
               <a href="#news">News</a>
