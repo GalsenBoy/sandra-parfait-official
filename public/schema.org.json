@@ -1,0 +1,104 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Sandra Parfait",
+  "jobTitle": "Actress",
+  "gender": "Female",
+  "birthDate": "1989-04",
+  "birthPlace": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lyon",
+      "addressCountry": "France"
+    }
+  },
+  "address": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris",
+      "addressCountry": "France"
+    }
+  },
+  "nationality": "French",
+  "image": "https://www.sandraparfait.com/meta-image.jpg",
+  "url": "https://www.sandraparfait.com/",
+  "sameAs": [
+    "https://www.imdb.com/name/nm7942430/",
+    "https://www.instagram.com/sand_parfait/",
+    "https://www.facebook.com/sand.parfait",
+    "https://time-art.com/talent/sandra_parfait.htm",
+    "https://soundcloud.com/user-32719373",
+    "https://www.senscritique.com/contact/sandra_parfait/4061121"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Time Art",
+    "url": "https://time-art.com/talent/sandra_parfait.htm"
+  },
+  "description": "Born in April 1989 in Lyon to a Martinican mother and Congolese father, Sandra Parfait pursued studies in interpreting, earning a degree in LEA (English, Spanish, Japanese). Concurrently, she took acting classes and later trained as a stunt performer. Her theatre career began in 2013 with roles in productions such as 'Une saison au Congo,' directed by Christian Schiaretti, 'The Vagina Monologues' directed by Dominique Deschamps, and 'Du Piment dans Les Yeux' by Antonella Amirante. She made her television debut in works by Didier Le Pêcheur, Jérôme Cornuau, Slimane-Baptiste Berhoun, Andrew Fleming, and Simon Astier, among others. In cinema, she appeared in films by Nicolas Pariser and Antonin Peretjatko. In 2021, she was cast by director Bertrand Mandico for a leading role in his third feature film, 'Conann,' selected for the Directors' Fortnight at Cannes in 2023. In 2023, she joined the successful Netflix series 'Lupin' for its third season, starring alongside Omar Sy.",
+  "performerIn": [
+    {
+      "@type": "TVSeries",
+      "name": "Lupin",
+      "director": {
+        "@type": "Person",
+        "name": "Louis Leterrier"
+      },
+      "actor": [
+        {
+          "@type": "Person",
+          "name": "Omar Sy"
+        }
+      ],
+      "url": "https://www.netflix.com/title/81068777",
+      "inLanguage": "French",
+      "datePublished": "2021-01-08"
+    },
+    {
+      "@type": "Movie",
+      "name": "Sous la Seine",
+      "director": {
+        "@type": "Person",
+        "name": "Xavier Gens"
+      },
+      "actor": [
+        {
+          "@type": "Person",
+          "name": "Bérénice Bejo"
+        },
+        {
+          "@type": "Person",
+          "name": "Nassim Lyes"
+        }
+      ],
+      "url": "https://www.netflix.com/title/81210788",
+      "image": "https://fr.web.img6.acsta.net/r_1280_720/img/d1/53/d1532144e02da271d5c0f49f49d3f572.jpg",
+      "inLanguage": "French",
+      "datePublished": "2023-07-14"
+    },
+    {
+      "@type": "Movie",
+      "name": "Conann",
+      "director": {
+        "@type": "Person",
+        "name": "Bertrand Mandico"
+      },
+      "actor": [
+        {
+          "@type": "Person",
+          "name": "Elina Löwensohn"
+        },
+        {
+          "@type": "Person",
+          "name": "Christa Théret"
+        }
+      ],
+      "url": "https://www.imdb.com/title/tt16090596/",
+      "image": "https://www.fxoxo.com/wp-content/uploads/2023/11/0g9wbr1qybyb1-scaled.jpg",
+      "inLanguage": "French",
+      "datePublished": "2024-03-10"
+    }
+  ]
+}
