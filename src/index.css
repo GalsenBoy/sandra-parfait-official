@@ -67,13 +67,6 @@
 }
 
 @layer base {
-  @font-face {
-    font-family: "Inter";
-    font-style: normal;
-    font-optical-sizing: auto;
-    font-variation-settings: "slnt" 0;
-    src: url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-  }
   * {
     @apply border-border scroll-smooth;
   }
