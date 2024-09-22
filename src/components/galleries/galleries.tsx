@@ -1,21 +1,20 @@
-import PhotosCarousel from "./photos-carousel"
-import VideosCarousel from "./videos-carousel"
+import { galleries } from "@/data/galleriesData";
 
 function Galleries() {
   return (
-    <section id='galleries' className='h-fit min-h-svh flex flex-col text-left gap-24 p-12'>
+    <section
+      id="galleries"
+      className="h-fit min-h-svh flex flex-col text-left gap-24 p-12"
+    >
       <h2 className="text-3xl font-semibold">Galleries</h2>
-      <article id='photos' className="px-12">
-        <h3 className='sr-only'>Photos</h3>
-        <PhotosCarousel />
-      </article>
-
-      <article id='videos' className="px-12">
-        <h3 className='sr-only'>Videos</h3>
-        <VideosCarousel />
-      </article>
+      {galleries.map((gallery) => (
+        <article key={gallery.id} className={gallery.articleClass}>
+          <h3 className={gallery.h3Class}>{gallery.title}</h3>
+          {gallery.component}
+        </article>
+      ))}
     </section>
-  )
+  );
 }
 
-export default Galleries
+export default Galleries;
